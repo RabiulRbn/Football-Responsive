@@ -200,32 +200,58 @@ main{
     align-items: center;
     width: 1050px;
 }
+.highlight-title h1{
+    font-weight: 700;
+    font-size: 40px;
+}
 .highlight-image img{
     width: 567px;
     height: 427px;
     margin-left: 50px;
 }
 
+                    /* Award style  */
+
+.award-images img{
+    height: 200px;
+    width: 200px;
+
+}
+
 
                     /* Footer Style  */
 
 .footer-section{
-    color: #fff;
-    width: 483.87px;
-    height: 213px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 200px;
     margin-bottom: 20px;
+    margin-left: 35%;
+    
+    
 }
 
-.footer-image img{
+.footer-logo img{
     width: 483.87px;
     height: 110px;
+    
 
 }
+
 .footer-icon img{
     height: 30px;
     width: 30px;
+    margin-right: 10px;
+    
+}
+.footer-copyright{
+   color: #000000;
+   font-size: 18px;
+   font-weight: 500;
+   
 }
 
 
