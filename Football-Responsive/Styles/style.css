@@ -199,6 +199,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 1050px;
+    margin-bottom: 50px;
 }
 .highlight-title h1{
     font-weight: 700;
@@ -211,6 +212,13 @@ main{
 }
 
                     /* Award style  */
+
+.award-title{
+    display: flex;
+    justify-content: center;
+    
+  
+}
 
 .award-images img{
     height: 200px;
