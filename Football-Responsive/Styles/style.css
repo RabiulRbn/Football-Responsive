@@ -1,0 +1,165 @@
+                
+                    /* Font              */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+                    /* Utilities */
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+                
+                
+                
+                  /* Headet style  */
+
+
+                  /* Nav-bar style Start  */
+
+
+.header-container{
+    background-color:#2D25A0;
+    padding: 30px 90px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    width: 1160px;
+    height: 44px;
+}
+.nav-list a:hover {
+    color: indianred;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 36px;
+}
+.login-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E02C6D;
+    padding: 5px 24px;
+    margin-right: 120px;
+}
+.login-option:hover button{
+    color: indigo
+}
+
+
+
+
+.login-icon img{
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+    color: #fff;
+}
+.button button{
+    background-color: #E02C6D;
+    color: #ffff;
+    border: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 20px;
+   
+}
+
+     /* Nav-bar Style End  */
+
+
+     /* Header-banner Style  */
+    
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.banner-title{
+    font-weight: 700;
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+.watch-live{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color:#E02C6D ;
+     width: 168px;
+     height: 44px;
+     padding-bottom: 6px;
+     
+
+}
+
+.watch-live img{
+    width: 24px;
+    height: 24px;
+    padding-top: 8px;
+    color: #fff;
+
+
+}
+.watch-live a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.arrow-icon{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+}
+
+.watch-live:hover button {
+    color: indigo;
+    
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    
+
+}
+.header-container:hover .player-kick{
+    transform: rotate(50deg);
+    transform-origin: top,left;
+
+
+}
+.player-kick{
+    transition: transform .5s ease-in;
+}
+.fa-futbol{
+    font-size: 70px;
+    color: #fff;
+    position: relative;
+    right: 366px;
+    top: -366px;
+    transition: transform 2s ease-out 0.55s;
+}
+.header-container:hover .fa-futbol{
+    transform: translate(300px,-200px);
+
+}
+
+
+
+
+
+
+
+
+/* ------------------------
+--------------------------- */
+
+
