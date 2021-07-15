@@ -18,7 +18,9 @@
 
 .header-container{
     background-color:#2D25A0;
-    padding: 30px 90px;
+    padding: 30px 100px;
+    width: 86%;
+    height: 100vh;
 }
 .nav-bar{
     display: flex;
@@ -26,7 +28,6 @@
     align-items: center;
     font-weight: 500;
     font-size: 16px;
-    width: 1160px;
     height: 44px;
 }
 .nav-list a:hover {
@@ -44,7 +45,7 @@
     align-items: center;
     background-color: #E02C6D;
     padding: 5px 24px;
-    margin-right: 120px;
+   
 }
 .login-option:hover button{
     color: indigo
@@ -78,6 +79,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
+   
 }
 .banner-title{
     font-weight: 700;
@@ -159,15 +161,15 @@
 
 main{
 
-    width: 1050px;
+
     background-color: #fff;
-    margin: 100px;
+    padding: 110px;
 }
 .player-detail{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+   
+    grid-row-gap: 15px;
     margin-bottom: 100px;
 }
 .container{
@@ -182,10 +184,7 @@ main{
     width: 300px;
     height: 256px;
 }
-.player-info{
-    width: 300px;
-    height: 154px;  
-}
+
 .player-info h2{
     font-weight: bold;
 }
@@ -198,7 +197,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1050px;
+
     margin-bottom: 50px;
 }
 .highlight-title h1{
@@ -209,9 +208,17 @@ main{
     width: 567px;
     height: 427px;
     margin-left: 50px;
+    
 }
 
                     /* Award style  */
+
+.award{
+    padding: 90px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+    margin-bottom: 50px;
+}
+ 
 
 .award-title{
     display: flex;
@@ -226,6 +233,26 @@ main{
 
 }
 
+                /* Letest News Style  */
+.latest-news-container{
+    padding: 80px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+}
+.news-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.news{
+    display: flex;
+}
+.news-image img{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+
 
                     /* Footer Style  */
 
@@ -234,10 +261,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 20px;
-    margin-left: 35%;
+    margin-top: 60px;
+    
     
     
 }
@@ -261,6 +286,47 @@ main{
    font-weight: 500;
    
 }
+
+                /* Media Quatries */
+                
+                /* mobile Devices */
+
+@media only screen  and (max-width:688px){
+  .header-container{
+      width: 100%;
+      height: 100%;
+  }
+    .banner{
+
+       
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    .banner-image{
+        margin-top: 30px;
+    }
+    
+    .player-detail{
+      
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1,1fr);
+    }
+   
+
+    
+
+    .nav-bar, .highlight, .award-container, .latest-news-container{
+        display: none;
+    }
+
+
+    
+
+}
+
 
 
 
